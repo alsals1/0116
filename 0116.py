@@ -31,3 +31,11 @@ print(my_range_2) # range(1,10)
 # 활용법
 print(list(my_range_1)) # [0, 1, 2, 3, 4]
 print(list(my_range_2)) # [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+# 딕셔너리 (중복이 불가능)
+
+my_dict = {'apple': 12, 'list': [1, 2, 3], 'apple': 100} # key 'apple' 이 중복되었다. 
+print(my_dict) 
+# {'apple': 100, 'list': [1, 2, 3]}
+# 마지막 값을 기준으로 갱신된다. 
