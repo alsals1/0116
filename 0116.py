@@ -39,3 +39,19 @@ my_dict = {'apple': 12, 'list': [1, 2, 3], 'apple': 100} # key 'apple' 이 중�
 print(my_dict) 
 # {'apple': 100, 'list': [1, 2, 3]}
 # 마지막 값을 기준으로 갱신된다. 
+
+
+my_set_1 = {1, 2, 3}
+my_set_2 = {3, 6, 9}
+
+1. 합집합
+print(my_set_1 | my_set_2)
+
+
+2. 차집합
+print(my_set_1 - my_set_2)
+
+3. 교집합
+print(my_set_1 & my_set_2)
+
+
